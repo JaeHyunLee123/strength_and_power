@@ -1,0 +1,19 @@
+.history-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.history-column span,
+.history-column i{
+    font-size: 25px;
+}
+
+.history-date span{
+    margin-right: 20px;
+}
+
+.history__content span:nth-child(2){
+    text-transform: uppercase;
+}

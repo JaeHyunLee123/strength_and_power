@@ -1,0 +1,24 @@
+:root{
+    --yellow: #fae100;
+
+    --gray:rgba(0,0,0,0.3);
+    
+    --horizontal-space:25px;
+
+    
+
+    --pastel-green: #e1f7d5;
+    --pastel-red: #ffbdbd;
+    --pastel-blue: #c9c9ff;
+    --pastel-purple: #f1cbff;
+    --pastel-yellow:#fffb96;
+
+    --spotify-green:#1db954;
+    --spotify-black:#121212;
+    --spotify-dark-gray:#212121;
+    --spotify-gray:#535353;
+    --spotify-light-gray:#b3b3b3;
+
+
+    --main-border: 2px solid var(--pastel-green);
+}

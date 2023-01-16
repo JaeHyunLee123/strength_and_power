@@ -1,0 +1,79 @@
+.workout__date{
+    display: flex;
+    border-bottom: 1px solid var(--spotify-dark-gray);
+    margin-bottom:15px;
+}
+
+.workout__date span{
+    font-size:25px;
+    margin-right: 20px;
+}
+
+
+.stop-watch,
+.stop-watch button{
+    background-color: var(--spotify-dark-gray);
+}
+
+.stop-watch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 90px;
+    width:90%;
+    border-radius: 45px;
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:90px;
+
+    box-shadow: 0px 0px 10px var(--spotify-black);
+}
+
+.stop-watch button{
+    border: none;
+}
+
+.stop-watch > span,
+.stop-watch i{
+    font-size: 50px;
+    color: var(--spotify-green);
+}
+
+
+@keyframes hide-splash-screen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+
+#splash-screen{    
+    background-color: var(--spotify-green);
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    animation: hide-splash-screen 400ms ease-in-out forwards;
+    animation-delay: 400ms;
+    z-index: 60;
+}
+
+#splash-screen span{
+    font-weight: 600;
+    font-size: 100px;
+    color:var(--spotify-black);
+}

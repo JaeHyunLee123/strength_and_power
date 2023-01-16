@@ -1,0 +1,27 @@
+.exercise{
+    border-bottom: solid 1px var(--spotify-green);
+    margin-bottom:20px;
+}
+.exercise__name{
+    font-size: 20px;
+    margin-bottom:5px;
+}
+
+.exercise__set li{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px;
+}
+
+.exercise__set li:last-child{
+    margin-bottom:10px;
+}
+
+.exercise__set li > span{
+    width: 30%;
+    text-align: center;
+}
+
+.how-many-amreps{
+    width:20px
+}

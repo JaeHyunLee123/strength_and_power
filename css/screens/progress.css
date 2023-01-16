@@ -1,0 +1,9 @@
+#my-chart.line {
+    height: 200px;
+    width: 300px;
+    margin: 20px 25px;
+}
+
+#my-chart{
+    --color:var(--spotify-green);
+}
